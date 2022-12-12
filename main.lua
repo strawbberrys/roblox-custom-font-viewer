@@ -14,16 +14,14 @@ local function getFontIds(): {number}
     -- httpService:GetAsync("https://apis.roblox.com/toolbox-service/v1/marketplace/73")
 
     return {
+        11702779517,
         8836875837,
         11322590111,
-        11597903036,
-        8827600221,
-        8764312106,
-        11598289817,
-        11598121216,
-        11598476186,
+        11702779240,
         11598121416,
-        11598383684
+        11598289817,
+        8764312106,
+        11702779409
     }
 end
 
