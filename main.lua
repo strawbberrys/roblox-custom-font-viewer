@@ -1,7 +1,5 @@
--- services
-local starterGui = game:GetService("StarterGui")
+local StarterGui = game:GetService("StarterGui")
 
--- variables
 local fontTypes = {
     { Enum.FontWeight.Regular, Enum.FontStyle.Normal },
     { Enum.FontWeight.Bold, Enum.FontStyle.Normal },
@@ -9,9 +7,8 @@ local fontTypes = {
     { Enum.FontWeight.Bold, Enum.FontStyle.Italic }
 }
 
--- functions
 local function getFontIds(): {number}
-    -- httpService:GetAsync("https://apis.roblox.com/toolbox-service/v1/marketplace/73")
+    -- HttpService:GetAsync("https://apis.roblox.com/toolbox-service/v1/marketplace/73")
 
     return {
         11702779517,
@@ -78,7 +75,7 @@ local function createUi(): Frame
     uiListLayout.SortOrder = Enum.SortOrder.LayoutOrder
     uiListLayout.Parent = fontExamplesFrame
 
-    screenGui.Parent = starterGui
+    screenGui.Parent = StarterGui
 
     return fontExamplesFrame
 end
